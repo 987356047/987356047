@@ -1,0 +1,8 @@
+import subprocess
+
+# URL с SSH
+repo_url = "git+ssh://git@github.com/MystenLabs/pysui.git"
+
+# Установка пакета через pip
+subprocess.run(["pip", "install", repo_url], check=True)
+
